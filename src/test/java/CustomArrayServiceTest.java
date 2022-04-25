@@ -34,7 +34,7 @@ public class CustomArrayServiceTest {
         } catch (FileException e) {
             throw new FileException("File is not found");
         }
-        int result = CustomArrayService.findMaxElement(array);
+        int result = service.findMaxElement(array);
         assertEquals(454, result);
     }
 

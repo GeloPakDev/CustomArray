@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CustomArrayService {
-    public static int findMaxElement(int[] array) throws CustomArrayException {
+    public int findMaxElement(int[] array) throws CustomArrayException {
         if (array == null) {
             throw new CustomArrayException("Array can not be null");
         }
